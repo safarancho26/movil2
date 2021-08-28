@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BhGFWrXAKIiXdT9T7xu0FwLviaNgzX6gWD8+YRamIRz1uL81sOgpPUL0S16P+GGnId+N3bUgTerEoB9P42KoOg==",
+  "dgSpecHash": "B6DJfIVLDkJ3SIYa9FipOJhMy6jD3lbqjGjgZe/78R8oEDl/XLlmDydRuQDY8OPYarpg+gpb9gThDl4dYMFzsw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Downloads\\Desarrollo2021\\PM2E1201810060245\\PM2E1201810060245\\PM2E1201810060245\\PM2E1201810060245.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Documents\\GitHub\\movil2\\Proyecto1\\PM2E1201810060245\\PM2E1201810060245\\PM2E1201810060245\\PM2E1201810060245.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+4Mw5DwHBVR8H6K7ttDsvnK+9vDzJsc19j448z6a+aM8xpnPKp313zQPj7msVRidhdegHalg0FSswiXgIqbfzw==",
+  "dgSpecHash": "OZGcEFwE0b0jaG1/8KZylI6w91CbxlsPYhc81Vsb9TNA5fx/CQzdMRh8hTNHOsVUg/FKNGAR+Fi9nfKB5mkbsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Downloads\\Desarrollo2021\\PM2E1201810060245\\PM2E1201810060245\\PM2E1201810060245.Android\\PM2E1201810060245.Android.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Documents\\GitHub\\movil2\\Proyecto1\\PM2E1201810060245\\PM2E1201810060245\\PM2E1201810060245.Android\\PM2E1201810060245.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\plugin.currentactivity\\2.1.0.4\\plugin.currentactivity.2.1.0.4.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\plugin.mediamanager\\1.0.9\\plugin.mediamanager.1.0.9.nupkg.sha512",

@@ -1077,11 +1077,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Downloads\\Desarrollo2021\\PM2E1201810060245\\PM2E1201810060245\\PM2E1201810060245\\PM2E1201810060245.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Documents\\GitHub\\movil2\\Proyecto1\\PM2E1201810060245\\PM2E1201810060245\\PM2E1201810060245\\PM2E1201810060245.csproj",
       "projectName": "PM2E1201810060245",
-      "projectPath": "C:\\Users\\PC\\Downloads\\Desarrollo2021\\PM2E1201810060245\\PM2E1201810060245\\PM2E1201810060245\\PM2E1201810060245.csproj",
+      "projectPath": "C:\\Users\\PC\\Documents\\GitHub\\movil2\\Proyecto1\\PM2E1201810060245\\PM2E1201810060245\\PM2E1201810060245\\PM2E1201810060245.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Downloads\\Desarrollo2021\\PM2E1201810060245\\PM2E1201810060245\\PM2E1201810060245\\obj\\",
+      "outputPath": "C:\\Users\\PC\\Documents\\GitHub\\movil2\\Proyecto1\\PM2E1201810060245\\PM2E1201810060245\\PM2E1201810060245\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
