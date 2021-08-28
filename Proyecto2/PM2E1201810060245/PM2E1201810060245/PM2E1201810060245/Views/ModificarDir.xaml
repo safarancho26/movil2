@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2E1201810060245.Views.ModificarDir">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Nueva Ubicación" x:Name="nuevaUbic"
+IconImageSource="example_icon.png"
+Order="Primary"
+Priority="0"
+Clicked="nuevaUbic_Clicked"/>
+        <ToolbarItem Text="Ubicaciones Salvadas" x:Name="ubicacionSalvadas"
+IconImageSource="example_icon.png"
+Order="Primary"
+Priority="0"
+Clicked="ubicacionSalvadas_Clicked"/>
+    </ContentPage.ToolbarItems>
+    <ScrollView>
+        <StackLayout>
+            <Image Source="uth.png" Margin="0,0,0,20"
+BackgroundColor="White" Opacity="0.8"/>
+            <Entry x:Name="id" IsVisible="false" Text="{Binding Id}"></Entry>
+
+            <Label Text="Latitud Nueva" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="10,0,0,0"/>
+            <Grid>
+                <Frame Padding="0" CornerRadius="15" Margin="10,5,10,10" BackgroundColor="Gray" Opacity="0.9">
+                    <Entry x:Name="latitudnueva" Margin="10,5,10,10" FontAttributes="Bold" TextColor="Black" Text="{Binding latitud}"></Entry>
+                </Frame>
+            </Grid>
+
+
+
+            <Label Text="Longitud Nueva" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="10,0,0,0"/>
+            <Grid>
+                <Frame Padding="0" CornerRadius="15" Margin="10,5,10,10" BackgroundColor="Gray" Opacity="0.9">
+                    <Entry x:Name="longitudnueva" Margin="10,5,10,10" FontAttributes="Bold" TextColor="Black" Text="{Binding longitud}"></Entry>
+                </Frame>
+            </Grid>
+
+
+
+            <Label Text="Describa la nueva direccion casa" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="10,0,0,0"/>
+            <Grid>
+                <Frame Padding="0" CornerRadius="15" Margin="10,5,10,10" BackgroundColor="Gray" Opacity="0.9">
+                    <Editor x:Name="descripLarga" Margin="10,5,10,10" HeightRequest="80" IsReadOnly="False" FontAttributes="Bold" TextColor="Black" Text="{Binding descriplarga}"></Editor>
+                </Frame>
+            </Grid>
+
+
+
+            <Label Text="Direccion exacta casa nueva" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="10,0,0,0"/>
+            <Grid>
+                <Frame Padding="0" CornerRadius="15" Margin="10,5,10,10" BackgroundColor="Gray" Opacity="0.9">
+                    <Entry x:Name="descripCorta" Margin="10,5,10,10" IsReadOnly="False" FontAttributes="Bold" TextColor="Black" Text="{Binding descripcorta}"></Entry>
+                </Frame>
+            </Grid>
+
+
+
+
+
+            <Grid Padding="10">
+                <Button x:Name="salvarUbicacion"
+Text="Salvar Ubicación casa"
+Grid.Row="0"
+Grid.Column="0"
+Clicked="salvarUbicacion_Clicked"
+BackgroundColor="#64B5F6"
+HeightRequest="55"
+CornerRadius="15"/>
+
+
+
+                <Button x:Name="ubicacionesSalvadas"
+Text="Lista casa"
+Grid.Row="0"
+Grid.Column="1"
+Clicked="ubicacionesSalvadas_Clicked"
+BackgroundColor="#64B5F6"
+HeightRequest="55"
+CornerRadius="15"/>
+            </Grid>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

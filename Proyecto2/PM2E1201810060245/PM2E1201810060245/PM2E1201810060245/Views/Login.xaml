@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2E1201810060245.Views.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame >
+                <Label TextColor="#3399ff" FontAttributes="Bold" Text="CONTROL DE CASAS" FlexLayout.AlignSelf="Center" FontSize="25"/>
+               
+            </Frame>
+            <Image Source="uth.png" Margin="0,0,0,20" BackgroundColor="White" Opacity="0.8"/>
+
+            <Label Text="Usuario" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="10,0,0,0"/>
+            <Grid>
+                <Frame Padding="0" CornerRadius="15" Margin="10,5,10,10" BackgroundColor="Gray" Opacity="0.9">
+                    <Entry x:Name="userNameEntry" Grid.Row="1" Grid.Column="0" ReturnType="Next" Placeholder="Email"  TextColor="Black" />
+                </Frame>
+            </Grid>
+            <Label Text="Password" FontSize="Large" FontAttributes="Bold" TextColor="Black" Margin="10,0,0,0"/>
+            <Grid>
+                <Frame Padding="0" CornerRadius="15" Margin="10,5,10,10" BackgroundColor="Gray" Opacity="0.9">
+                    <Entry x:Name="passwordEntry" ReturnType="Done" Grid.Row="3" Grid.Column="0" IsPassword="True" Placeholder="Password"  TextColor="Black" />
+                </Frame>
+            </Grid>
+          
+            <Grid>
+                <Button x:Name="loging" Clicked="loging_Clicked"  Grid.Row="0" Grid.Column="0" FontSize="Medium" TextColor="White" BorderColor="Black" BackgroundColor="#3399ff"  CornerRadius="8"   HorizontalOptions="CenterAndExpand" Text="Ingresar"></Button>
+                <Button x:Name="newloging" Clicked="newloging_Clicked"  Grid.Row="0" Grid.Column="1" FontSize="Medium" TextColor="White" BorderColor="Black" BackgroundColor="#3399ff"  CornerRadius="5"   HorizontalOptions="CenterAndExpand" Text="Registro"></Button>
+          
+            </Grid>
+            <Button x:Name="salida" Clicked="salida_Clicked" FontSize="Medium" TextColor="White" BorderColor="Black" BackgroundColor="#E74C3C"  CornerRadius="5"   HorizontalOptions="CenterAndExpand" Text="Salir"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2E1201810060245.Views.CrearUser">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label TextColor="#3399ff" FontAttributes="Bold" Text="Iniciar Sesión" FlexLayout.AlignSelf="Center" FontSize="25"/>
+            <Entry x:Name="userNameEntry" ReturnType="Next" Placeholder="Nombre" FontSize="Medium"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+            <Entry x:Name="passwordEntry" ReturnType="Done" IsPassword="True" Placeholder="Password" FontSize="Medium"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+            <Entry x:Name="EmailEntry" ReturnType="Next" Placeholder="Email" FontSize="Medium"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+            <Entry x:Name="PhoneEntry" ReturnType="Next"  Placeholder="telefono" FontSize="Medium"  HorizontalOptions="CenterAndExpand"  TextColor="Black" />
+
+            <Button x:Name="loging" Clicked="crearCuenta" FontSize="Medium" TextColor="White" BorderColor="Black" BackgroundColor="#00b33c"  CornerRadius="5" FlexLayout.AlignSelf="Stretch"  HorizontalOptions="CenterAndExpand" Text="Guardar cuenta"></Button>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

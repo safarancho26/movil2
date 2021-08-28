@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+
+x:Class="PM2E1201810060245.Views.VerPlaces"
+BackgroundColor="White">
+
+
+
+
+    <StackLayout>
+        <Label x:Name="latitud" FontSize="Large" IsVisible="false" FontAttributes="Bold" TextColor="Black"/>
+        <Label x:Name="longitud2" FontSize="Large" FontAttributes="Bold" IsVisible="false" TextColor="Black"/>
+        <Button x:Name="btnRestApi" Text="Mostrar Lugares" Clicked="btnRestApi_Clicked"/>
+
+        <ListView x:Name="list" HorizontalOptions="FillAndExpand" ItemSelected="UbicacionesCercanas_ItemSelected" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+
+                            <Grid>
+                                <Entry x:Name="ids" IsVisible="false" Text="{Binding id,Mode=TwoWay}" FontAttributes="Bold" ></Entry>
+
+
+
+                                <Entry x:Name="longit" IsVisible="false" Text="{Binding location.lng,Mode=TwoWay}" FontAttributes="Bold" >
+                                </Entry>
+                                <Entry x:Name="latitde" IsVisible="false" Text="{Binding location.lat,Mode=TwoWay}" FontAttributes="Bold"></Entry>
+                                <Label x:Name="co" Grid.Row="0" Grid.Column="0" Text="{Binding name,Mode=TwoWay}" FontAttributes="Bold"/>
+                                <Label Grid.Row="1" Grid.Column="1" Text="{Binding location.city}" FontAttributes="Bold" />
+                                <Label Grid.Row="1" Grid.Column="0" Text="{Binding location.country}" FontAttributes="Bold" />
+                            </Grid>
+
+                        </Grid>
+                        
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Grid Margin="0,0,0,30" Padding="10">
+            <Button x:Name="vermapa"
+
+
+
+Text="Ver Mapa"
+Grid.Row="1"
+Grid.Column="1"
+Clicked="vermapa_Clicked"
+HeightRequest="80"
+CornerRadius="15"
+BackgroundColor="#64B5F6"/>
+
+
+
+        </Grid>
+
+
+    </StackLayout>
+
+
+
+</ContentPage>
