@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:pancakeview="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             mc:Ignorable="d"
+             x:Class="CrudMVVM.Views.EdicionEmpleado">
+    <ContentPage.Content>
+        <StackLayout x:Name="resultadosbd">
+            <Frame BackgroundColor="#2196F3" Padding="2" CornerRadius="0">
+                <Label Text="Editar Pago" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand"  TextColor="White" FontSize="16"/>
+            </Frame>
+
+            <ListView x:Name="listempleado" ItemsSource="{Binding listempleado}">
+
+            </ListView>
+
+
+            <Entry x:Name="id" Placeholder="ID Empleado" HorizontalOptions="FillAndExpand" Text="{Binding Id}" IsVisible="False"></Entry>
+            
+                <Entry x:Name="nombre" Placeholder="Descripcion de pago" HorizontalOptions="FillAndExpand" Text="{Binding Nombre}"></Entry>
+              
+            <Entry x:Name="apellido" Placeholder="monto de pago" HorizontalOptions="FillAndExpand" Text="{Binding Apellido}"></Entry>
+
+               
+             <Entry x:Name="edades" Placeholder="fecha" HorizontalOptions="FillAndExpand" Text="{Binding edad}"></Entry>
+
+            
+
+            <Button x:Name="save" Text="SAVE" BackgroundColor="#87a8d0" TextColor="White" Clicked="edit_Clicked" Command="{Binding editCommand}"></Button>
+            <Button x:Name="btnguardar" Text="DELETE" BackgroundColor="#87a8d0" TextColor="White"  Clicked="delete_Clicked" Command="{Binding deleteCommand}"></Button>
+
+        </StackLayout>
+            
+    </ContentPage.Content>
+</ContentPage>
+                        
